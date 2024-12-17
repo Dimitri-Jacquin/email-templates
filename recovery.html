@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Récupération de mot de passe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #dc3545;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Récupération de mot de passe</h1>
+    <p>Cliquez sur le bouton ci-dessous pour réinitialiser votre mot de passe.</p>
+    <a href="{{ recovery_link }}" class="button">Réinitialiser le mot de passe</a>
+  </div>
+</body>
+</html>
