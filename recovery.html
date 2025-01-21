@@ -31,7 +31,7 @@
   <div class="container">
     <h1>Récupération de mot de passe</h1>
     <p>Cliquez sur le bouton ci-dessous pour réinitialiser votre mot de passe.</p>
-<a href="https://app-entech.uon-web.com/auth/confirm?token_hash={{ .TokenHash }}&type=recovery&next=/protected/reset-password" class="button">Réinitialiser le mot de passe</a>
+<a href="https://app-entech.uon-web.com/auth/v1/verify?token={{ .TokenHash }}&type=recovery&next=/protected/reset-password" class="button">Réinitialiser le mot de passe</a>
   </div>
 </body>
 </html>
