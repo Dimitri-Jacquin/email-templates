@@ -31,7 +31,8 @@
   <div class="container">
     <h1>Invitation</h1>
     <p>Vous êtes invité à rejoindre notre plateforme. Cliquez sur le bouton ci-dessous pour accepter l'invitation.</p>
-    <a href="{{ .ConfirmationURL }}" class="button">Accepter l'invitation</a>
+    <a href="https://app-entech.uon-web.com/auth/confirm?token_hash={{ .TokenHash }}&type=invite&next=/protected/profile" class="button">Accepter l'invitation</a>
+  </div>
   </div>
 </body>
 </html>
